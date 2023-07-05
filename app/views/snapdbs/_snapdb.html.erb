@@ -1,0 +1,6 @@
+<div id="<%= dom_id snapdb %>" class="snapdb" style="background-color: <%= snapdb.color%>">
+  <%= image_tag url_for(snapdb.image) if snapdb.image.attached? %>
+  <p>
+    <%= snapdb.title %>
+  </p>
+</div>

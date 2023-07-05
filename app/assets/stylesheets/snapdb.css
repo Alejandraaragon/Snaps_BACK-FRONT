@@ -1,0 +1,33 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.snapdb {
+    aspect-ratio: 1/1;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.snapdb p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+}
+
+.snapdb img {
+    width: 50%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.container-sm {
+    max-width: 540px;
+    margin: 0 auto;
+}

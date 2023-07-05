@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Snaps - Practicando Ruby on Rails</h1>
+
+<div id="snapdbs">
+  <% @snapdbs.each do |snapdb| %>
+    <%= render snapdb %>
+    <p>
+      <%= link_to "Show this snapdb", snapdb %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New snapdb", new_snapdb_path %>

@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @snapdb %>
+
+<div>
+  <%= link_to "Edit this snapdb", edit_snapdb_path(@snapdb) %> |
+  <%= link_to "Back to snapdbs", snapdbs_path %>
+
+  <%= button_to "Destroy this snapdb", @snapdb, method: :delete %>
+</div>
