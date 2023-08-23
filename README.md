@@ -1,24 +1,28 @@
-# README
+# SNAPS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tecnologías Utilizadas
 
-Things you may want to cover:
+* Ruby on Rails 
+* Sqlite
+* CSS
+* Bootstrap
 
-* Ruby version
+## Descripción
 
-* System dependencies
+#### Este es un ejemplo práctico que genera cards mediante un formulario. Éste permite agregar un título, una imagen y elegír un color de fondo. Tiene todos los elementos de un CRUD, crear, mostrar, editar y eliminar cards.
 
-* Configuration
+## Como se ve Snaps
 
-* Database creation
+* Cards
 
-* Database initialization
+![Diagrama de flujo](/assets_git/ruby1.png)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+![Diagrama de flujo](/assets_git/Ruby2.png)
 
-* Deployment instructions
 
-* ...
+* Formulario de creación
+
+![Diagrama de flujo](/assets_git/Ruby3.png)
+
+![Diagrama de flujo](/assets_git/Ruby4.png)
